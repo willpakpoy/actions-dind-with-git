@@ -1,0 +1,7 @@
+version: '3'
+services:
+  actions-dind-with-git:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: willypp/actions-dind-with-git
